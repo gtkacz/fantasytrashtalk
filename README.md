@@ -20,10 +20,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<!-- [![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
+[![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
 [![Issues][issues-shield]][https://github.com/gtkacz/fantasytrashtalk/issues]
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/] -->
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/]
 
 
 
@@ -163,7 +163,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - gabrielmt2@al.insper.edu.br
+My email - gabrielmt2@al.insper.edu.br
 
 Project Link: [https://github.com/gtkacz/fantasytrashtalk](https://github.com/gtkacz/fantasytrashtalk)
 
@@ -182,15 +182,15 @@ Project Link: [https://github.com/gtkacz/fantasytrashtalk](https://github.com/gt
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/gtkacz/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/gtkacz/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gtkacz/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/gtkacz/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/gtkacz/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/gtkacz/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gtkacz/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/gtkacz/repo/issues
-[license-shield]: https://img.shields.io/github/license/gtkacz/repo.svg?style=for-the-badge
-[license-url]: https://github.com/gtkacz/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/gtkacz/fantasytrashtalk.svg?style=for-the-badge
+[contributors-url]: https://github.com/gtkacz/fantasytrashtalk/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gtkacz/fantasytrashtalk.svg?style=for-the-badge
+[forks-url]: https://github.com/gtkacz/fantasytrashtalk/network/members
+[stars-shield]: https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge
+[stars-url]: https://github.com/gtkacz/fantasytrashtalk/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gtkacz/fantasytrashtalk.svg?style=for-the-badge
+[issues-url]: https://github.com/gtkacz/fantasytrashtalk/issues
+[license-shield]: https://img.shields.io/github/license/gtkacz/fantasytrashtalk.svg?style=for-the-badge
+[license-url]: https://github.com/gtkacz/fantasytrashtalk/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gtkacz
