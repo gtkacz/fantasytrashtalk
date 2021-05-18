@@ -1,0 +1,5 @@
+Laranja principal - #ff9700
+Azul principal - #0e1740
+
+Amarelo secundairo - #feca00
+Azul claro secundario - #bbc4c9

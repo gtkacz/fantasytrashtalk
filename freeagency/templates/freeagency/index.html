@@ -1,0 +1,55 @@
+{% extends "freeagency/base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="switchbutton">
+<p>Modo compacto</p>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</div>
+
+<table class="styled-table">
+<thead>
+  <tr>
+    <th><a href="/sortby=name" class="a-titulo">Jogador<i class="sort-by-desc"></i></th>
+    <th><a href="/" class="a-titulo">Posição<i class="sort-by-desc"></i></th>
+    <th><a href="/sortby=-population" class="a-titulo">Bid ativo<i class="sort-by-desc"></i></th>
+    <th><a href="/sortby=-total_cases" class="a-titulo">RFA<i class="sort-by-desc"></i></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+  </tr>
+  <tr>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+  </tr>
+  <tr>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+  </tr>
+  {% comment %} {% for player in players %}
+  <tr>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+    <td>Lorem ipsum</td>
+  </tr>
+  {% endfor %} {% endcomment %}
+  </tbody>
+</table>
+
+
+{% endblock %}
