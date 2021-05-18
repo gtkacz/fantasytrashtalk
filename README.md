@@ -20,10 +20,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
+<!-- [![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
 [![Issues][issues-shield]][https://github.com/gtkacz/fantasytrashtalk/issues]
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/] -->
 
 
 
