@@ -30,9 +30,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/gtkacz/fantasytrashtalk">
+  <!-- <a href="https://github.com/gtkacz/fantasytrashtalk">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Fantasy Trash Talk</h3>
 
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -172,7 +172,7 @@ Project Link: [https://github.com/gtkacz/fantasytrashtalk](https://github.com/gt
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
+* [NBA headshots API](https://nba-players.herokuapp.com/)
 * []()
 * []()
 
