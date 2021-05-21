@@ -20,16 +20,16 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
+<!-- [![Stargazers][stars-shield]][https://github.com/gtkacz/fantasytrashtalk/stargazers]
 [![Issues][issues-shield]][https://github.com/gtkacz/fantasytrashtalk/issues]
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/] -->
 
 <div style="display: flex;flex-direction:row">
   <a href="https://github.com/gtkacz/fantasytrashtalk/stargazers"><img src="https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Stargazers"></a>
-  <a href=""><img src="" alt=""></a>
-  <a href=""><img src="" alt=""></a>
-  <a href=""><img src="" alt=""></a>
+  <a href="https://github.com/gtkacz/fantasytrashtalk/issues"><img src="https://img.shields.io/github/issues/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://www.linkedin.com/in/gabriel-tkacz-7877a8194/"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555" alt="LinkedIn"></a>
 </div>
 
 <!-- PROJECT LOGO -->
