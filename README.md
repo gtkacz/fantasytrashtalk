@@ -25,7 +25,7 @@
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/] -->
 
-<div style="display: flex;flex-direction:row;align-content:center;justify-content:center;align-items:center;">
+<div style="align-content:center;justify-content:center;align-items:center;">
   <a href="https://github.com/gtkacz/fantasytrashtalk/stargazers"><img src="https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Stargazers"></a>
   <a href="https://github.com/gtkacz/fantasytrashtalk/issues"><img src="https://img.shields.io/github/issues/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Issues"></a>
   <a href="https://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="MIT License"></a>
