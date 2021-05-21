@@ -25,14 +25,12 @@
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/] -->
 
-<p align="center">
-  <div style="display: flex;flex-direction:row;">
-    <a href="https://github.com/gtkacz/fantasytrashtalk/stargazers"><img src="https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Stargazers"></a>
-    <a href="https://github.com/gtkacz/fantasytrashtalk/issues"><img src="https://img.shields.io/github/issues/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Issues"></a>
-    <a href="https://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="MIT License"></a>
-    <a href="https://www.linkedin.com/in/gabriel-tkacz-7877a8194/"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555" alt="LinkedIn"></a>
-  </div>
-</p>
+<div style="display: flex;flex-direction:row;align-content:center;justify-content:center;align-items:center;">
+  <a href="https://github.com/gtkacz/fantasytrashtalk/stargazers"><img src="https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/gtkacz/fantasytrashtalk/issues"><img src="https://img.shields.io/github/issues/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://www.linkedin.com/in/gabriel-tkacz-7877a8194/"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555" alt="LinkedIn"></a>
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
