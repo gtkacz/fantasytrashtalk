@@ -25,7 +25,12 @@
 [![MIT License][license-shieldhttps://github.com/gtkacz/fantasytrashtalk/blob/main/LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/gabriel-tkacz-7877a8194/]
 
-
+<div style="display: flex;flex-direction:row">
+  <a href="https://github.com/gtkacz/fantasytrashtalk/stargazers"><img src="https://img.shields.io/github/stars/gtkacz/fantasytrashtalk.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -86,8 +91,7 @@
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`gtkacz`, `fantasytrashtalk`, `twitter_handle`, `gabrielmt2@al.insper.edu.br`, `Fantasy Trash Talk`, `Project made for the web technologies class. Free agency tool for NBA fantasy games.`
+Project made for the web technologies class. Free agency tool for NBA fantasy games.
 
 
 ### Built With
