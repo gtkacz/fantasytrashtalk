@@ -166,7 +166,7 @@ color: #0e1740;
 }
 
 .styled-table thead tr {
-    background-color: #002a43;
+    background-color: #0e1740;
     color: #ffffff;
     text-align: center;
 }
@@ -200,7 +200,7 @@ color: #0e1740;
 }
 
 .styled-table tbody tr:hover {
-    background-color: #bbc4c9;
+    background-color: #feca00;
     font-weight: bold;
 }
 
@@ -237,4 +237,29 @@ color: #0e1740;
 
 thead tr td button{
   display: none;
-} 
+}
+
+.registerbtn {
+  background-color: #ff9700;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  transition: ease-in-out 150ms;
+  -webkit-transition: ease-in-out 150ms;
+  -moz-transition: ease-in-out 150ms;
+  -ms-transition: ease-in-out 150ms;
+  -o-transition: ease-in-out 150ms;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+}

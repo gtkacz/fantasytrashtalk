@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fantasy Trash Talk</title>
+    <link rel="icon" href="{% static 'freeagency/img/logo.png' %}">
+    <link rel="stylesheet" href="{% static 'freeagency/docs/ftt.css' %}"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% comment %} <script type="text/javascript" src="{% static 'stats/docs/covid.js' %}"></script> {% endcomment %}
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+  </head>
+  <div class="navbar">
+    <p>⠀</p>
+  </div>
+  <body class="main-container">
+      <h2>Sign up</h2>
+  <form method="post" class="signup">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="registerbtn">Sign up</button>
+  </form>
+    <img src="{% static 'freeagency/img/logo.png' %}" class="end-logo">
+    <div class="bottom"><span>The Fantasy Trash Talk website© is licensed under the MIT License</span></div>
+  </body>
+</html>
