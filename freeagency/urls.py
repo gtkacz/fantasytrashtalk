@@ -4,8 +4,9 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('accounts/login/', views.login),
+    # path('accounts/login/', views.login),
     path('<str:username>/bids/', views.userbids),
     path('player/<str:playername>/', views.playerview),
-    url(r'^login/$', views.login, name='login'),
+    path('sortby=<str:sortvalue>/', views.sortby),
+    # url(r'^login/$', views.login, name='login'),
 ]

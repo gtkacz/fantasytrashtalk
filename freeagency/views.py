@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
+from django.http import Http404
 from .models import GM, FreeAgent
 import requests
 
@@ -20,9 +21,9 @@ def get_image(name: str) -> str:
     except:
         return '//imgur.com/RaQJX49'
 
-@login_required
+# @login_required
 def index(request):
-    players = FreeAgent.objects.all()
+    players = FreeAgent.objects.all().order_by('last_name')
     return render(request, 'freeagency/index.html', {'players': players})
 
 def login(request):
@@ -39,10 +40,23 @@ def login(request):
         form = UserCreationForm()
     return render(request, 'freeagency/login.html', {'form': form})
 
-def playerview(request):
-    raise NotImplementedError
+# @login_required
+def playerview(request, name):
+    try:
+        first_name = name.split()[0]
+        last_name = name.split()[1]
+        player = FreeAgent.objects.get(last_name=last_name, first_name=first_name)
+        return render(request, 'freeagency/index.html', {'player': player})
+    except FreeAgent.DoesNotExist:
+        raise Http404
 
-@login_required
+# @login_required
+def sortby(request, sortvalue):
+    players = FreeAgent.objects.all().order_by(sortvalue)
+    return render(request, 'freeagency/index.html', {'players': players})
+
+# @login_required
 def userbids(request, username):
-    bids = GM.objects.get(username=username)
+    gm = GM.objects.get(username=username)
+    bids = FreeAgent.objects.filter(last_bid=gm)
     return render(request, 'freeagency/mybids.html', {'bids': bids})

@@ -1,5 +1,6 @@
 {% extends "freeagency/base.html" %}
 {% load static %}
+{% load tz %}
 
 {% block content %}
 
@@ -15,10 +16,10 @@
 <table class="styled-table">
 <thead>
   <tr>
-    <th><a href="/sortby=name" class="a-titulo">Jogador<i class="sort-by-desc"></i></th>
-    <th><a href="/" class="a-titulo">Posição<i class="sort-by-desc"></i></th>
-    <th><a href="/sortby=-population" class="a-titulo">Bid ativo<i class="sort-by-desc"></i></th>
-    <th><a href="/sortby=-total_cases" class="a-titulo">RFA<i class="sort-by-desc"></i></th>
+    <th><a href="/" class="a-titulo">Jogador<i class="sort-by-desc"></i></th>
+    <th><a href="/sortby=position" class="a-titulo">Posição<i class="sort-by-desc"></i></th>
+    <th><a href="/sortby=bid_has_ended" class="a-titulo">Bid ativo<i class="sort-by-desc"></i></th>
+    <th><a href="/sortby=is_rfa" class="a-titulo">RFA<i class="sort-by-desc"></i></th>
   </tr>
   </thead>
   <tbody>
