@@ -111,14 +111,11 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/gtkacz/fantasytrashtalk.git
-   ```
-
-
-+ clone or download the repo and ```cd``` into the directory.
-+ Run ```python manage.py makemigrations auctions``` to make migrations for the ```auctions``` app.
++ Clone the repo ```git clone https://github.com/gtkacz/fantasytrashtalk.git```
++ ```cd``` into the directory.
++ ```cd env/Scripts```
++ ```activate.bat```
++ Run ```python manage.py makemigrations``` to make migrations for the app.
 + Run ```python manage.py migrate``` to apply migrations to your database.
 + Run ```python manage.py runserver``` to run the server in your local machine.
 
